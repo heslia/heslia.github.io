@@ -2,10 +2,14 @@ body {
   background-color: #222222;
   color: #F0F0F0; 
 }
-.social-icon,
+.social-icon {
+  color: black !important;
+  text-decoration: none;
+}
+
 .social-icon:visited,
 .social-icon:hover,
-.social-icon:active {
-  color: black; /* ou la couleur que tu veux */
-  text-decoration: none;
+.social-icon:active,
+.social-icon:link {
+  color: black !important;
 }
